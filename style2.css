@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    background-color: forestgreen;
+}
+.menu{
+    position: sticky;
+    top: 0px;
+    background-color: gray;
+    border: darkgray 10px solid;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    width: 150px;
+    height: 100px;
+    background-color: forestgreen;
+    border: outset 10px rgb(28, 129, 28);
+    padding: 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-family: "Tiny5", "Jersey 10";
+    color: white;
+}
+button:hover{
+    background-color: orange;
+    border-color: rgb(228, 148, 1);
+    color: black;
+}
+button:active{
+    background-color: rgb(228, 148, 1);
+    border-color: orange;
+}
+.Base{
+    display: flex;
+    justify-content: center;
+}
+#Border{
+    width: 540px;
+    background-color: black;
+}
+#Column{
+    width: 1200px;
+    padding: 50px;
+    border-left: 70px solid green;
+    border-right: 70px solid green;
+    border-top: 20px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    background-color: orange;
+    border: 5px outset rgb(228, 148, 1);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 2em;
+    font-family: "Jersey 10", "Tiny5";
+}
