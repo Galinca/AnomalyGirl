@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: forestgreen;
+    background-color: pink;
 }
 .menu{
     position: sticky;
@@ -15,8 +15,8 @@ body{
 button{
     width: 150px;
     height: 100px;
-    background-color: forestgreen;
-    border: outset 10px rgb(28, 129, 28);
+    background-color: pink;
+    border: outset 10px palevioletred;
     padding: 0px;
     border-radius: 20px;
     margin-top: 10px;
@@ -45,9 +45,9 @@ button:active{
 #Column{
     width: 1200px;
     padding: 50px;
-    border-left: 70px solid green;
-    border-right: 70px solid green;
-    border-top: 20px solid green;
+    border-left: 70px solid pink;
+    border-right: 70px solid pink;
+    border-top: 20px solid pink
     display: flex;
     flex-direction: column;
     align-items: center;
